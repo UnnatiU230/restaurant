@@ -1,0 +1,483 @@
+*{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.yoy{
+   width: 100px;
+   height: 100px;
+   margin-left: 30px;
+   padding-top: 20px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a {
+    margin-right: 20px;
+    color: brown;
+    font-size: 18px;
+    cursor: pointer;
+}
+a:hover{
+    color: maroon;
+    transition: all;
+}
+
+button{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(165, 128, 128);
+    width: 70px;
+    height: 40px;
+    border-top-right-radius: 2px;
+}
+button a{
+    color: aliceblue;
+}
+
+.first{
+    width: 1500px;
+    height: 600px;
+    margin-left: 10px;
+}
+.side-img{
+    margin-top: 20px;
+    width: 650px;
+    height: 450px;
+    margin-left: 30px;
+}
+.container{
+    float: right;
+    width: 800px;
+
+}
+
+.container p{
+    font-size: 16px;
+
+}
+.container h2{
+    font-size: bold;
+    color: darkred;
+    text-decoration: underline;
+}
+.gallery{
+    color: crimson;
+  margin-left: 750px;
+    text-decoration: underline;
+    justify-content: space-between;
+}
+
+.gallery-images{
+    margin-left: 70px;
+   padding: 40px;
+}
+
+.reveiw{
+    margin-left: 650px;
+    color: crimson;
+    text-decoration: underline;
+}
+
+.review-style{
+    border: 2px solid grey;
+    height: 400px;
+    width: 1000px;
+    margin-left: 240px;
+}
+footer{
+    background-color: rgb(161, 141, 141);
+    height: 300px;
+    
+}
+
+
+
+.box-1{
+    height: 200px;
+    width: 410px;
+    background-color: rgb(161, 141, 141);
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.box-2{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(161, 141, 141);
+    margin-top: 40px;
+}
+.box-3{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(161, 141, 141);
+    margin-top: 40px;
+}
+
+.container-1{
+    display: flex;
+    column-gap: 60px;
+}
+
+
+.div-1{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 90px;
+    border: 2px solid black;
+}
+
+.div-2{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border: 2px solid black;
+}
+
+.div-3{
+    background-color: #ffffff;
+    height: 320px;
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border: 2px solid black;
+}
+
+.container-2{
+    display: flex;
+}
+
+/*Menu page*/
+.container-menu{
+    padding: 0;
+    width:1515px;
+    height: 1000px;
+    
+
+}
+
+.menu-head{
+    color: #29B0A7;
+    margin-left: 400px;
+    padding-top: 20px;
+    font-size: clamp(4.6rem, 3.25rem + 6.30vw, 7rem);
+    text-decoration: dotted pink;
+    text-decoration-line: underline;
+    
+}
+
+.container-menu h2{
+    color: #29B0A7;
+    font-size: xx-large;
+    margin-left: 40px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: rgb(94, 84, 84);
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-direction: column;
+    float: right;
+    padding: 30px;
+}
+.card{
+    width: 315px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+
+.card img{
+    padding: 20px;
+}
+.korma{
+    width: 250px;
+    height: 200px;
+}
+
+.dal{
+    width: 250px;
+    height: 200px;
+}
+.chole{
+    width: 250px;
+    height: 200px;
+}
+.aloo{
+    width: 250px;
+    height: 200px;
+}
+.choco{
+    width: 250px;
+    height: 200px;
+}
+
+.mango{
+    width: 250px;
+    height: 200px;
+}
+
+.vanilla{
+    width: 250px;
+    height: 200px;
+}
+
+.cherry{
+    width: 250px;
+    height: 200px;
+}
+.card-content h3{
+    margin-left: 10px;
+    color:#F58025;
+    font-weight: 800;
+}
+
+.card-content p{
+    margin-left: 10px;
+    color: #1b140f;
+}
+
+/*Reservation page */
+.container-reserve{
+    background-color: #ffffff;
+   
+
+    margin-top: 80px;
+    box-shadow:10px 15px 20px rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-columns: 40% 60%;
+   
+}
+
+.container-time{
+    background-color: rgba(0,0,0,0.95);
+    padding: 50px;
+    outline: 3px dashed #998100;
+    outline-offset: -30px;
+    width:350px;
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+
+.heading{
+    font-size: 35px;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+.heading-days{
+    color:brown;
+    font-size: 30px;
+}
+
+.container-time  p{
+    color: #ffffff;
+}
+.heading-phone{
+    color: #ffffff;
+}
+
+/*Form*/
+
+.container-form{
+    padding: 5px 0;
+    margin: 0 auto;
+    color: #1b140f;
+}
+form{
+    display: grid;
+    grid-row-gap: 20px;
+}
+.form-feild{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+input,select{
+    padding: 10px 15px;
+    margin-left: 15px;
+    height: 15px;
+    color: #1b140f;
+}
+.btn{
+    background-color: #1b140f;
+    width: 150px;
+    color: brown;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;
+    box-shadow: 7px 10px 12px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.03);
+    box-shadow: 10px 12px 15px rgba(0,0,0,0.3);
+}
+
+.heading-online{
+    color: #29B0A7;
+    font-size: 30px;
+}
+.email{
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 24px;
+
+}
+.form-feild p{
+    font-size: 25px;
+}
+
+.div-1 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 70px;
+    padding-top: 40px;
+    border-radius: 200px;
+}
+.div-2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 70px;
+    padding-top: 40px;
+    border-radius: 200px;
+}
+.div-3 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 70px;
+    padding-top: 40px;
+    border-radius: 200px;
+}
+.div-1 , .div-2 , .div-3 p{
+    justify-content: center;
+    padding-top: 20px;
+ 
+}
+
+.footer-menu{
+    margin-top: 900px;
+}
+
+/*about*/
+.about{
+    width: 1510px;
+    height: 600px;
+    margin-left: 5px;
+}
+.k-logo{
+    width: 150px;
+    height: 100px;
+    margin-left: 150px;
+}
+.main p{
+    margin-left: 160px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.t-logo{
+    width: 150px;
+    height: 100px;
+    margin-left: 1250px;
+}
+.main-2 p{
+    margin-left: 700px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+/*contact-page*/
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(#ffdad5, #fff7f9);
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title h2{
+    font-weight: 600;
+    color: #a363aa;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color:#a363aa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-inpurts{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 90px;
+}
+.contact-inputs::placeholder{
+    color: #a9a9a9;
+}
+.contact-left button{
+    width: 130px;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(#ff994f, #fa6d86);
+    cursor: pointer;
+}
+.contact-left button img{
+    height: 15px;
+}
+
+.contact-right img{
+    width: 500px;
+
+}
+
+
+
+
+
